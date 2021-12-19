@@ -9,6 +9,9 @@
        (if (= severity :mild)
          words words2)))
 
+(def chewie "Chewbacca")
+(str "\"Ugglglglllgllgllgl\" - " chewie)
+
 (defn train
   []
   (println "Choo Choo!"))
